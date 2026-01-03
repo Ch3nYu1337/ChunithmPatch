@@ -86,6 +86,7 @@ namespace Chunithm {
 			else if (retAddr == RET_ADDR_INIT) {
 				g_gameState.isIniting = true;
 				g_gameState.isInLobby = false;
+				g_gameState.currentMusicId = 0;
 			}
 
 			return ret;
