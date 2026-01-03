@@ -8,7 +8,7 @@ Chunithm 遊戲的 Discord Rich Presence 補丁，可在 Discord 顯示你正在
 2. 將 DLL 注入到遊戲中
 3. 開始遊玩，Discord 狀態將自動更新
 
-## 專輯封面設定（可選）
+## 專輯封面設定
 
 若要在 Discord 顯示歌曲封面圖片，請在 DLL 同目錄下放置 `jacket-urls.json` 檔案
 
