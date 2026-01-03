@@ -37,8 +37,6 @@ namespace {
 	}
 
 	DWORD WINAPI MainThread(LPVOID lpParam) {
-		Sleep(2000);
-
 		if (!Initialize()) {
 			FreeLibraryAndExitThread(static_cast<HMODULE>(lpParam), 1);
 			return 1;
@@ -47,8 +45,6 @@ namespace {
 		int discordUpdateCounter = 0;
 
 		while (g_running) {
-
-
 			discordUpdateCounter++;
 			if (discordUpdateCounter >= 10) {
 				Chunithm::DiscordRPC::RunCallbacks();
