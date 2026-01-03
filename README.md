@@ -35,3 +35,5 @@ Discord 狀態將顯示：
 - 即時分數與評級（D ~ SSS+）
 - 歌曲封面（如有設定）
 - 遊戲時間
+
+![image](https://github.com/Ch3nYu1337/ChunithmPatch/blob/master/showcase.png)
